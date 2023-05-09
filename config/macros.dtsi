@@ -1,35 +1,24 @@
-macro_app_windows: macro_app_windows {
-  compatible = "zmk,behavior-macro";
-  label = "macro_app_windows";
-  #binding-cells = <0>;
-  wait-ms = <30>;
-  tap-ms = <40>;
-  bindings = <&kt RCTRL>, <&kp UP>, <&kt RCTRL>;
+macro_app_windows: macro_app_windows{
+compatible = "zmk,behavior-macro";
+label = "macro_app_windows";
+#binding-cells = <0>;
+bindings = <&kt RCTRL>, <&kp UP>, <&kt RCTRL>;
 };
-
-macro_desktop_windows: macro_desktop_windows {
-  compatible = "zmk,behavior-macro";
-  label = "macro_desktop_windows";
-  #binding-cells = <0>;
-  wait-ms = <30>;
-  tap-ms = <40>;
-  bindings = <&kt LCTRL>, <&kp DOWN>, <&kt LCTRL>;
+macro_desktop_windows: macro_desktop_windows{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_windows";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp DOWN>, <&kt LCTRL>;
 };
-
-macro_prev_desktop: macro_prev_desktop {
-  compatible = "zmk,behavior-macro";
-  label = "macro_prev_desktop";
-  #binding-cells = <0>;
-  wait-ms = <30>;
-  tap-ms = <40>;
-  bindings = <&kt RIGHT_CONTROL>, <&kp LEFT>, <&kt RCTRL>;
+macro_prev_desktop: macro_prev_desktop{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_desktop";
+#binding-cells = <0>;
+bindings = <&kt RIGHT_CONTROL>, <&kp LEFT>, <&kt RCTRL>;
 };
-
-macro_next_desktop: macro_next_desktop {
-  compatible = "zmk,behavior-macro";
-  label = "macro_next_desktop";
-  #binding-cells = <0>;
-  wait-ms = <30>;
-  tap-ms = <40>;
-  bindings = <&kt LEFT_CONTROL>, <&kp RIGHT>, <&kt LEFT_CONTROL>;
+macro_next_desktop: macro_next_desktop{
+compatible = "zmk,behavior-macro";
+label = "macro_next_desktop";
+#binding-cells = <0>;
+bindings = <&kt LEFT_CONTROL>, <&kp RIGHT>, <&kt LEFT_CONTROL>;
 };
