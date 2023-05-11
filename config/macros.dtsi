@@ -2,13 +2,13 @@ macro_app_windows: macro_app_windows{
 compatible = "zmk,behavior-macro";
 label = "macro_app_windows";
 #binding-cells = <0>;
-bindings = <&kt RCTRL>, <&kp UP>, <&kt RCTRL>;
+bindings = <&kt RCTRL>, <&kp DOWN>, <&kt RCTRL>;
 };
 macro_desktop_windows: macro_desktop_windows{
 compatible = "zmk,behavior-macro";
 label = "macro_desktop_windows";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp DOWN>, <&kt LCTRL>;
+bindings = <&kt LCTRL>, <&kp UP>, <&kt LCTRL>;
 };
 macro_prev_desktop: macro_prev_desktop{
 compatible = "zmk,behavior-macro";
