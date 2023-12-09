@@ -45,8 +45,6 @@
             label = "MAC_NEXT_DESKTOP";
         };
 
-        #endif
-
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
