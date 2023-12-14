@@ -57,14 +57,14 @@
         win_prev_desktop: win_prev_desktop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LEFT)>;
+            bindings = <&kp LG(LC(LEFT))>;
             label = "WIN_PREV_DESKTOP";
         };
 
         win_next_desktop: win_next_desktop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(RIGHT)>;
+            bindings = <&kp LG(LC(RIGHT))>;
             label = "WIN_NEXT_DESKTOP";
         };
 
